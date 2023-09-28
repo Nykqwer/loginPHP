@@ -1,0 +1,107 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-image: url("assets/bg4.gif");
+  background-size: cover;
+
+}
+
+.container{
+  width: 800px;
+  background-color: #E3F0F2;
+  margin: auto;
+  height: 440px;
+  margin-top: 200px;
+  border-radius: 20px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+  
+}
+p{
+  margin: 0;
+  margin-top: 16px;
+  font-size: 16px;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-el{
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  padding: 8px 8px;
+  font-size: 16px;
+  width: 210px;
+}
+
+.left-flex{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.luffy-img{
+  width: 160px;
+  margin-left: 120px;
+  margin-top: 4px;
+  border-radius: 100%;
+ 
+
+}
+
+.display-flex{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-right: 90px;
+  justify-content: center;
+
+}
+h4{
+  margin-right: 70px;
+  margin-top: 60px;
+  font-size: 26px;
+}
+
+.js-btn{
+  margin-top: 26px;
+  padding: 8px 7px;
+  background-color: #6EA5D8;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  margin-right: 64px;
+font-weight: bold; 
+}
+
+.btn-js{
+  background-image: url('assets/bg7.gif');
+}
+
+
+button:hover{
+  opacity: 0.8;
+}
+button:active{
+  background-color: #ffffff;
+  color: #0f161d;
+}
+
+.icons{
+  width: 28px;
+  margin-top: 20px;
+  margin-left: 6px;
+}
+.icons1{
+  width: 44px;
+  margin-right: 60px;
+}
